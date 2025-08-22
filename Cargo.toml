@@ -1,0 +1,12 @@
+[package]
+name = "blueshift_pinocchio_secp256r1_vault"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["lib", "cdylib"]
+
+[dependencies]
+pinocchio = "0.9.0"
+pinocchio-secp256r1-instruction = "0.1.2"
+pinocchio-system = "0.3.0"
